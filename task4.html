@@ -27,7 +27,7 @@
     </div>
     <script>
         'use strict';
-        let textEl = document.getElementById("text");
+        const textEl = document.getElementById("text");
         console.log(textEl.textContent.replace(/'/g,'"'));
         console.log(textEl.textContent.replace(/(\B')|('\B)/g, '"'));
     </script>
